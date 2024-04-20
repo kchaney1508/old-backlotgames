@@ -37,6 +37,23 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #0c0c0c;
 }
 
+/* Web loading effect */
+body {
+  animation: fadeIn ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Overwrite Homepage colors */
 .main-wrapper main {
   background-color: #0c0c0c;
