@@ -10,6 +10,10 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 ### Deployment
 Locally, `npm run build` & `npm run serve`. Repo auto deploys using [GitHub Workflows](.github/workflows/deploy.yml) to [backlot.city](https://backlot.city/).
 
+#### Redirects
+This website builds with the [client-redirects](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects) plugin. Our redriects:
+- `/discord` @ [b038abe](https://github.com/kchaney1508/backlot.city/commit/b038abedb1888b61329be2891bcef6ab1073f262)
+
 ### [License](./LICENSE)
     MIT License
     
