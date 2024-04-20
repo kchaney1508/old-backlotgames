@@ -45,14 +45,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kchaney1508/backlot.city',
+            'https://github.com/kchaney1508/backlot.city/blob/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kchaney1508/backlot.city',
+            'https://github.com/kchaney1508/backlot.city/blob/',
         },
         theme: {
           customCss: './src/css/custom.css',
