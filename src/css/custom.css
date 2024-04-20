@@ -29,7 +29,61 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* footer */
+/* Overwrite main colors */
+html[data-theme='dark'] {
+  --ifm-background-color: #0c0c0c;
+  --ifm-background-surface-color: #090909;
+  --ifm-button-background-color: #0c0c0c;
+  --ifm-footer-background-color: #0c0c0c;
+}
+
+/* Overwrite Homepage colors */
+.main-wrapper main {
+  background-color: #0c0c0c;
+}
+
+.hero--primary {
+  background-color: #0c0c0c;
+}
+
+/* Navbar */
+.header-server-link:hover {
+  opacity: 0.7;
+}
+
+.header-server-link:before {
+  content: ' ';
+  width: 26px;
+  height: 26px;
+  display: flex;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><polygon fill="rgba(227,227,227)" points="5,45 9,34 21,22 15,45"/><polygon fill="rgba(227,227,227)" points="25,18 33,45 43,45 32,12"/><polygon fill="rgba(227,227,227)" points="16.059,14.164 20,3 28,3"/><polygon fill="rgba(227,227,227)" points="10.731,29.002 23,17 23,15 11.58,26.667"/><polygon fill="rgba(227,227,227)" points="15.142,16.429 13,22 29.724,5.725 28.818,3.178"/><polygon fill="rgba(227,227,227)" points="23.932,14.055 24.377,15.626 30.941,9.178 30.385,7.702"/></svg>');
+}
+
+.header-server-link svg {
+  display: none;
+}
+
+.header-discord-link:hover {
+  opacity: 0.7;
+}
+
+.header-discord-link:before {
+  content: ' ';
+  width: 26px;
+  height: 26px;
+  display: flex;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(227,227,227)" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03M8.02 15.33c-1.182 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418m7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418"/></svg>') no-repeat;
+}
+
+.header-discord-link svg {
+  display: none;
+}
+
+/* Footer */
+.footer {
+  background-color: #090909;
+}
+
 .footer__copyright {
   font-family: 'Courier New', Courier, monospace;
 }

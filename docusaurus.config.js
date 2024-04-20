@@ -81,9 +81,16 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://cfx.re/join/y79k5y',
+            label: ' ',
             position: 'right',
+            className: "header-server-link",
+          },
+          {
+            href: 'https://www.discord.gg/KGdp7X3f63',
+            label: ' ',
+            position: 'right',
+            className: "header-discord-link",
           },
         ],
       },
