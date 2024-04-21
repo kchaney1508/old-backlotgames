@@ -35,7 +35,11 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #0c0c0c;
 }
 
-/* Web loading effect */
+/* Stop 'white blurp' when loading slowly */
+html {
+  background-color: #0c0c0c !important;
+}
+
 body {
   animation: fadeIn ease 0.5s;
   animation-iteration-count: 1;
@@ -117,4 +121,9 @@ body {
 .footer__copyright a:hover {
   cursor: alias;
   text-decoration: none;
+}
+
+/* Other Overwrites */
+.padding-top--md {
+  padding-top: 1.75rem !important;
 }
