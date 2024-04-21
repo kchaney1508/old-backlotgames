@@ -95,48 +95,11 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `We ❤️ <a href="https://github.com/kchaney1508/backlot.city" target="_blank" rel="noopener noreferrer"><b>Open Source</b></a>`,
+        logo: {
+          alt: 'Piglins Large Banner',
+          src: 'img/backlot-footer-banner.png',
+        },
+        copyright: `Design created by <a href="https://github.com/kchaney1508" target="_blank" rel="noopener noreferrer"><b>KC1508</b></a> as <a href="https://github.com/kchaney1508/backlot.city" target="_blank" rel="noopener noreferrer"><b>Open Source</b></a>.<br>We're not affiliated with or endorsed by Rockstar Games.`,
       },
       prism: {
         theme: prismThemes.github,

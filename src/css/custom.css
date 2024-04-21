@@ -1,10 +1,8 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* import */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Montserrat:wght@300;400&family=Roboto&display=swap');
+
+/* css */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -99,13 +97,20 @@ body {
 /* Footer */
 .footer {
   background-color: #090909;
+
+}
+
+.footer__logo {
+  max-height: 5.5vh;
 }
 
 .footer__copyright {
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.35vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer__copyright a {
+  color: inherit !important;
   text-decoration: none;
 }
 
