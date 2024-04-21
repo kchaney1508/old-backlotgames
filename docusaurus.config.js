@@ -75,8 +75,8 @@ const config = {
       navbar: {
         title: 'Backlot',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Backlot Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -97,6 +97,10 @@ const config = {
             label: ' ',
             position: 'right',
             className: "header-discord-link",
+          },
+          {
+            type: 'search',
+            position: 'right',
           },
         ],
       },
