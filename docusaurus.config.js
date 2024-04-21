@@ -46,6 +46,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          breadcrumbs: false,
+          sidebarCollapsible: false,
           editUrl:
             'https://github.com/kchaney1508/backlot.city/tree/prod/',
         },
@@ -64,6 +66,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: false,
+        },
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Backlot',
