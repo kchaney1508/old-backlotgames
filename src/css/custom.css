@@ -101,11 +101,14 @@ body {
 /* Footer */
 .footer {
   background-color: #090909;
+  padding: 1vh 0vh 1vh 0vh !important;
 
 }
 
 .footer__logo {
   max-height: 5.5vh;
+  max-width: none !important;
+  margin-top: 0 !important;
 }
 
 .footer__copyright {
@@ -121,6 +124,10 @@ body {
 .footer__copyright a:hover {
   cursor: alias;
   text-decoration: none;
+}
+
+.margin-bottom--sm {
+  margin-bottom: 0 !important;
 }
 
 /* Other Overwrites */
