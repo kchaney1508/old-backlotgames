@@ -34,6 +34,10 @@ const config = {
             to: 'https://www.discord.gg/KGdp7X3f63',
             from: '/discord',
           },
+          {
+            to: '/docs/intro',
+            from: '/docs',
+          },
         ],
       },
     ],
