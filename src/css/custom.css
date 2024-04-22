@@ -154,6 +154,7 @@ body {
 
 .footer__copyright {
   font-size: 1.35vh;
+  font-weight: 400 !important;
   font-family: 'Montserrat', sans-serif;
 }
 
