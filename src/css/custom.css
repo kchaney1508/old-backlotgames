@@ -121,6 +121,22 @@ body {
   display: none;
 }
 
+/* Navbar search */
+:root {
+  --search-local-modal-background: #090909;
+  --search-local-highlight-color: #a1a1a1;
+  --ifm-navbar-item-padding-horizontal: 0.3vw !important;
+  --search-local-modal-shadow: inset 1px 0px 0 0 #000309, 1px 1px 1px 1px #000309;
+}
+
+.navbar__search {
+  margin-left: 0.15vw !important;
+}
+
+.navbar__search-input {
+  outline: none !important;
+}
+
 /* Footer */
 .footer {
   background-color: #090909;
