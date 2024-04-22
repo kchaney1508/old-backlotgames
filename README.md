@@ -14,6 +14,9 @@ Locally, `npm run build` & `npm run serve`. Repo auto deploys using [GitHub Work
 This website builds with the [client-redirects](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects) plugin. Our redriects:
 - `/discord` @ [b038abe](https://github.com/kchaney1508/backlot.city/commit/b038abedb1888b61329be2891bcef6ab1073f262)
 
+#### Other Credits
+[easyops](https://github.com/easyops-cn) for [docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local).
+
 ### [License](./LICENSE)
     MIT License
     
