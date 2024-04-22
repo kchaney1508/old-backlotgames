@@ -63,9 +63,28 @@ const config = {
     ],
   ],
 
-  themeConfig:
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: "en",
+      }),
+    ],
+  ],
+
+    themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     'content <a target="_blank" rel="noopener noreferrer" href="#">example</a>',
+      //   backgroundColor: '#FF5555',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
       docs: {
         sidebar: {
           hideable: false,
@@ -74,10 +93,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Backlot',
-        logo: {
-          alt: 'Backlot Logo',
-          src: 'img/logo.png',
-        },
         items: [
           {
             type: 'docSidebar',
