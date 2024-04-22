@@ -1,6 +1,6 @@
 /* Import */
 
-@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Montserrat:wght@300;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,600;1,600&display=swap');
 
 @font-face {
   font-family: 'SFHollywoodHills';
@@ -76,7 +76,9 @@ body {
 }
 
 .navbar__item {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold !important;
+  margin-top: 0.2vh;
 }
 
 .header-server-link {
@@ -167,6 +169,45 @@ body {
 
 .margin-bottom--sm {
   margin-bottom: 0 !important;
+}
+
+/* Updates */
+.col[class*="col--7"] {
+  border-radius: 1vh;
+  background-color: #090909;
+}
+
+.margin-bottom--xl {
+  margin-bottom: 2rem !important;
+}
+
+.docusaurus-mt-lg {
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+}
+
+.markdown {
+  margin-top: 1.5vh !important;
+}
+
+.margin-vert--md {
+  margin: 0 0 0 0 !important;
+}
+
+.avatar {
+  column-gap: 8px;
+}
+
+.avatar__name {
+  font-size: 20px !important;
+}
+
+.avatar__subtitle {
+  margin-top: 0 !important;
+}
+
+.container_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Info-styles-module:before {
+  content: 'Released on ';
 }
 
 /* Overwrites */

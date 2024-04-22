@@ -56,7 +56,11 @@ const config = {
             'https://github.com/kchaney1508/backlot.city/tree/prod/',
         },
         blog: {
-          showReadingTime: true,
+          path: 'updates',
+          routeBasePath: 'updates',
+          blogTitle: 'Updates',
+          blogDescription: 'Updates',
+          showReadingTime: false,
           editUrl:
             'https://github.com/kchaney1508/backlot.city/tree/prod/',
         },
@@ -106,9 +110,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs Portal',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/updates', label: 'Updates', position: 'left' },
           {
             href: 'https://cfx.re/join/y79k5y',
             label: ' ',
