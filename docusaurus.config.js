@@ -74,7 +74,7 @@ const config = {
     ],
   ],
 
-    themeConfig:
+  themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // announcementBar: {
@@ -85,12 +85,16 @@ const config = {
       //   textColor: '#091E42',
       //   isCloseable: false,
       // },
+      metadata: [
+        { name: 'keywords', content: 'five, backlot, roleplay' },
+        { name: 'og:description', content: 'Open world roleplay community in GTAV.' },
+      ],
       docs: {
         sidebar: {
           hideable: false,
         },
       },
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
         title: 'Backlot',
         items: [
