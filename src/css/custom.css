@@ -206,8 +206,8 @@ body {
   margin-top: 0 !important;
 }
 
-.container_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Info-styles-module:before {
-  content: 'Released on ';
+time:before {
+  content: "Released on " !important;
 }
 
 /* Overwrites */
