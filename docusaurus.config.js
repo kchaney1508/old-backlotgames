@@ -126,6 +126,12 @@ const config = {
             className: "header-discord-link",
           },
           {
+            href: 'https://ko-fi.com/backlotcity',
+            label: ' ',
+            position: 'right',
+            className: "header-kofi-link",
+          },
+          {
             type: 'search',
             position: 'right',
           },
