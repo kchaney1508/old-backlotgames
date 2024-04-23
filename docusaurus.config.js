@@ -35,6 +35,14 @@ const config = {
             from: '/discord',
           },
           {
+            to: 'https://ko-fi.com/backlotcity',
+            from: '/donate',
+          },
+          {
+            to: 'https://ko-fi.com/backlotcity',
+            from: '/support',
+          },
+          {
             to: '/docs/intro',
             from: '/docs',
           },
