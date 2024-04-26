@@ -8,6 +8,10 @@ authors:
   image_url: https://avatars.githubusercontent.com/u/107610683
 ---
 
+<head>
+  <title>Backlot - Updates</title>
+</head>
+
 Codebase release complete, return and see v1.1 or later (no data available).
 
 <!--truncate-->

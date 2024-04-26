@@ -8,6 +8,10 @@ authors:
   image_url: https://avatars.githubusercontent.com/u/107610683
 ---
 
+<head>
+  <title>Backlot - v1.1.0</title>
+</head>
+
 Data imported from a [Discord message](https://discord.com/channels/1220214123954966548/1220219265681068053/1225163804715782186) pre-docs.
 ```
 8e043cf/8e043cf: + dlc_mapedits (MRPD, Sandy, etc)
