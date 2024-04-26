@@ -108,6 +108,7 @@ body {
 
 .header-kofi-link:hover {
   opacity: 0.7;
+  cursor: alias;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -129,6 +130,7 @@ body {
 
 .header-server-link:hover {
   opacity: 0.7;
+  cursor: alias;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -150,6 +152,7 @@ body {
 
 .header-discord-link:hover {
   opacity: 0.7;
+  cursor: alias;
   transition: opacity 0.2s ease-in-out;
 }
 
