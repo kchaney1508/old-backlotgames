@@ -121,6 +121,7 @@ const config = {
             label: 'Docs Portal',
           },
           { to: '/updates', label: 'Updates', position: 'left' },
+          { to: '/rules', label: 'Rules', position: 'left' },
           {
             href: 'https://cfx.re/join/y79k5y',
             label: ' ',
