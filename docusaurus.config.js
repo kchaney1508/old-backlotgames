@@ -123,22 +123,24 @@ const config = {
           { to: '/updates', label: 'Updates', position: 'left' },
           { to: '/rules', label: 'Rules', position: 'left' },
           {
-            href: 'https://cfx.re/join/y79k5y',
-            label: ' ',
+            to: '/faq',
             position: 'right',
-            className: "header-server-link",
+            className: "header-faq-link",
+          },
+          {
+            href: 'https://ko-fi.com/backlotcity',
+            position: 'right',
+            className: "header-kofi-link",
           },
           {
             href: 'https://www.discord.gg/KGdp7X3f63',
-            label: ' ',
             position: 'right',
             className: "header-discord-link",
           },
           {
-            href: 'https://ko-fi.com/backlotcity',
-            label: ' ',
+            href: 'https://cfx.re/join/y79k5y',
             position: 'right',
-            className: "header-kofi-link",
+            className: "header-server-link",
           },
           {
             type: 'search',
