@@ -43,6 +43,10 @@ const config = {
             from: '/support',
           },
           {
+            to: 'https://www.youtube.com/watch?v=q4vy7BcAVJg',
+            from: '/hampter',
+          },
+          {
             to: '/docs/intro',
             from: '/docs',
           },
