@@ -14,7 +14,7 @@ We utilizes rules, *a set of explicit regulations or principles governing conduc
 ### **Prerequisites**
 - Working microphone of decent audible quality.
 - You & your characters must be 18+ years of age.
-- Roleplay must follow [TwitchTV](https://www.twitch.tv/p/en/legal/terms-of-service/) and [FiveM](https://fivem.net/tems) Terms of Service.
+- Roleplay must follow [TwitchTV](https://www.twitch.tv/p/en/legal/terms-of-service/) and [FiveM](https://fivem.net/terms) Terms of Service.
 - Absolutely no sexual, racist or other hateful remarks; in or out of character.
 
 ### **General Rules** {#general}
