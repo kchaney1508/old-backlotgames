@@ -21,26 +21,26 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #6cca9f;
+  --ifm-color-primary-dark: #55c290;
+  --ifm-color-primary-darker: #4abe89;
+  --ifm-color-primary-darkest: #3a9f71;
+  --ifm-color-primary-light: #83d2ae;
+  --ifm-color-primary-lighter: #8ed6b5;
+  --ifm-color-primary-lightest: #b0e3cc;
+  --ifm-background-color: #0c0c0c;
 }
 
 html[data-theme='dark'] {
-  --ifm-background-color: #0c0c0c;
-  --ifm-background-surface-color: #090909;
-  --ifm-button-background-color: #0c0c0c;
-  --ifm-footer-background-color: #0c0c0c;
+  --ifm-background-color: #17191a;
+  --ifm-background-surface-color: #121314;
+  --ifm-button-background-color: #17191a;
+  --ifm-footer-background-color: #17191a;
 }
 
 /* Fix: 'white blurp' */
 html {
-  background-color: #0c0c0c !important;
+  background-color: #17191a !important;
 }
 
 /* Page fade load anim */
@@ -62,11 +62,26 @@ body {
 
 /* Colors: homepage */
 .main-wrapper main {
-  background-color: #0c0c0c;
+  background-color: #17191a;
 }
 
 .hero--primary {
-  background-color: #0c0c0c;
+  background-color: #17191a;
+}
+
+/* Homepage */
+.hero__title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'SFHollywoodHills', cursive;
+}
+
+.hero__subtitle {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Navbar */
@@ -170,10 +185,10 @@ body {
 
 /* Navbar search */
 :root {
-  --search-local-modal-background: #090909;
+  --search-local-modal-background: #121314;
   --search-local-highlight-color: #a1a1a1;
   --ifm-navbar-item-padding-horizontal: 0.3vw !important;
-  --search-local-modal-shadow: inset 1px 0px 0 0 #000309, 1px 1px 1px 1px #000309;
+  --search-local-modal-shadow: inset 1px 0px 0 0 #121314, 1px 1px 1px 1px #121314;
 }
 
 .navbar__search {
@@ -186,7 +201,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #090909;
+  background-color: #121314;
   padding: 1vh 0vh 1vh 0vh !important;
 
 }
@@ -220,7 +235,7 @@ body {
 /* Updates */
 .col[class*="col--7"] {
   border-radius: 1vh;
-  background-color: #090909;
+  background-color: #121314;
 }
 
 .margin-bottom--xl {
