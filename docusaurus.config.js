@@ -1,50 +1,50 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Backlot',
-  tagline: 'Open Source Tagline',
-  favicon: 'img/favicon.ico',
+  title: "Backlot",
+  tagline: "Open Source Tagline",
+  favicon: "img/favicon.ico",
 
   // Production URL
-  url: 'https://backlot.city',
-  baseUrl: '/',
+  url: "https://backlot.city",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
-  organizationName: 'kchaney1508',
-  projectName: 'backlot.city',
-  deploymentBranch: 'prod',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  organizationName: "kchaney1508",
+  projectName: "backlot.city",
+  deploymentBranch: "prod",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
   trailingSlash: false,
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   plugins: [
     [
-      '@docusaurus/plugin-client-redirects',
+      "@docusaurus/plugin-client-redirects",
       {
         redirects: [
           {
-            to: 'https://www.discord.gg/KGdp7X3f63',
-            from: '/discord',
+            to: "https://www.discord.gg/KGdp7X3f63",
+            from: "/discord",
           },
           {
-            to: 'https://ko-fi.com/backlotcity',
-            from: '/donate',
+            to: "https://ko-fi.com/backlotcity",
+            from: "/donate",
           },
           {
-            to: 'https://ko-fi.com/backlotcity',
-            from: '/support',
+            to: "https://ko-fi.com/backlotcity",
+            from: "/support",
           },
           {
-            to: '/docs/intro',
-            from: '/docs',
+            to: "/docs/intro",
+            from: "/docs",
           },
         ],
       },
@@ -53,27 +53,25 @@ const config = {
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           breadcrumbs: false,
           sidebarCollapsible: false,
-          editUrl:
-            'https://github.com/kchaney1508/backlot.city/tree/prod/',
+          editUrl: "https://github.com/kchaney1508/backlot.city/tree/prod/",
         },
         blog: {
-          path: 'updates',
-          routeBasePath: 'updates',
-          blogTitle: 'Updates',
-          blogDescription: 'Updates',
+          path: "updates",
+          routeBasePath: "updates",
+          blogTitle: "Updates",
+          blogDescription: "Updates",
           showReadingTime: false,
-          editUrl:
-            'https://github.com/kchaney1508/backlot.city/tree/prod/',
+          editUrl: "https://github.com/kchaney1508/backlot.city/tree/prod/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -102,57 +100,60 @@ const config = {
       //   isCloseable: false,
       // },
       metadata: [
-        { name: 'keywords', content: 'five, backlot, roleplay' },
-        { name: 'og:description', content: 'Open world roleplay community in GTAV.' },
+        { name: "keywords", content: "five, backlot, roleplay" },
+        {
+          name: "og:description",
+          content: "Open world roleplay community in GTAV.",
+        },
       ],
       docs: {
         sidebar: {
           hideable: false,
         },
       },
-      image: 'img/social-card.png',
+      image: "img/social-card.png",
       navbar: {
-        title: 'Backlot',
+        title: "Backlot",
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs Portal',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Docs Portal",
           },
-          { to: '/updates', label: 'Updates', position: 'left' },
-          { to: '/rules', label: 'Rules', position: 'left' },
+          { to: "/updates", label: "Updates", position: "left" },
+          { to: "/rules", label: "Rules", position: "left" },
           {
-            to: '/faq',
-            position: 'right',
+            to: "/faq",
+            position: "right",
             className: "header-faq-link",
           },
           {
-            href: 'https://ko-fi.com/backlotcity',
-            position: 'right',
+            href: "https://ko-fi.com/backlotcity",
+            position: "right",
             className: "header-kofi-link",
           },
           {
-            href: 'https://www.discord.gg/KGdp7X3f63',
-            position: 'right',
+            href: "https://www.discord.gg/KGdp7X3f63",
+            position: "right",
             className: "header-discord-link",
           },
           {
-            href: 'https://cfx.re/join/y79k5y',
-            position: 'right',
+            href: "https://cfx.re/join/y79k5y",
+            position: "right",
             className: "header-server-link",
           },
           {
-            type: 'search',
-            position: 'right',
+            type: "search",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         logo: {
-          alt: 'Piglins Large Banner',
-          src: 'img/backlot-footer-banner.png',
+          alt: "Piglins Large Banner",
+          src: "img/backlot-footer-banner.png",
         },
         copyright: `Design created by <a href="https://github.com/kchaney1508" target="_blank" rel="noopener noreferrer"><b>KC1508</b></a> as <a href="https://github.com/kchaney1508/backlot.city" target="_blank" rel="noopener noreferrer"><b>Open Source</b></a>.<br>We're not affiliated with or endorsed by Rockstar Games.`,
       },
@@ -161,7 +162,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
