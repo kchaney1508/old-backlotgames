@@ -43,6 +43,10 @@ const config = {
             from: "/support",
           },
           {
+            to: "https://github.com/kchaney1508/niko",
+            from: "/niko",
+          },
+          {
             to: "/docs/intro",
             from: "/docs",
           },
