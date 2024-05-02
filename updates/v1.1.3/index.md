@@ -4,7 +4,7 @@ title: v1.1.3
 date: April 15, 2024
 authors:
   name: KC1508
-  title: Game Developer
+  title: Development
   image_url: https://avatars.githubusercontent.com/u/107610683
 ---
 
@@ -12,7 +12,7 @@ authors:
   <title>Backlot - v1.1.3</title>
 </head>
 
-Data imported from a [Discord message](https://discord.com/channels/1220214123954966548/1220219265681068053/1229445437824569506) pre-docs.
+Data imported from a [Discord message](https://discord.com/channels/1220214123954966548/1220219265681068053/1229445437824569506).
 
 Some commits may with withheld because they were reverted or aren't noteworthy.
 ```

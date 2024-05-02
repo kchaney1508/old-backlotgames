@@ -4,7 +4,7 @@ title: v1.1.0
 date: April 3, 2024
 authors:
   name: KC1508
-  title: Game Developer
+  title: Development
   image_url: https://avatars.githubusercontent.com/u/107610683
 ---
 
@@ -12,7 +12,7 @@ authors:
   <title>Backlot - v1.1.0</title>
 </head>
 
-Data imported from a [Discord message](https://discord.com/channels/1220214123954966548/1220219265681068053/1225163804715782186) pre-docs.
+Data imported from a [Discord message](https://discord.com/channels/1220214123954966548/1220219265681068053/1225163804715782186).
 ```
 8e043cf/8e043cf: + dlc_mapedits (MRPD, Sandy, etc)
 2e54c60: - handsup command
