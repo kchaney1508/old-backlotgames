@@ -323,6 +323,119 @@ time:before {
   content: "Released on " !important;
 }
 
+/* team page */
+.rowmiddle {
+  justify-content: center !important;
+}
+
+.rowteam {
+  margin: 1vh;
+  border-radius: 0.7vh;
+  background-color: #171717;
+}
+
+.cardcolor {
+  background-color: #333334;
+  transition: transform 0.2s;
+
+  /* remove text highlight */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cardcolor:hover {
+  transform: scale(1.01);
+}
+
+.cardgrouptitle {
+  /* min-width: var(--ifm-container-width-xl); */
+  width: var(--ifm-container-width-xl);
+
+  padding: 0px;
+  margin: 0px;
+
+  color: white;
+  font-size: 5rem;
+  text-align: center !important;
+  font-family: "SFHollywoodHills", cursive;
+}
+
+@media only screen and (max-width: 455px) {
+  .cardgrouptitle {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .card__footer {
+    display: none !important;
+  }
+}
+
+.row__avatar__name {
+  margin-bottom: 0px !important;
+}
+
+.row__avatar__title {
+  color: #afafaf;
+  margin-bottom: 0px !important;
+}
+
+.avatar__photo {
+  margin-bottom: 0.7vh;
+}
+
+.card__body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.buttondiscord {
+  border: none !important;
+  color: white !important;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #5865f2 !important;
+}
+
+.buttondiscord:hover {
+  opacity: 0.8;
+  border: none !important;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #5865f2 !important;
+}
+
+.buttongithub {
+  border: none !important;
+  color: black !important;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #f3f3f3 !important;
+}
+
+.buttongithub:hover {
+  opacity: 0.8;
+  border: none !important;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #f3f3f3 !important;
+}
+
+.buttonsteam {
+  border: none !important;
+  color: white !important;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #0a4d7f !important;
+}
+
+.buttonsteam:hover {
+  opacity: 0.8;
+  border: none !important;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #0a4d7f !important;
+}
+
 /* overwrites */
 .padding-top--md {
   padding-top: 1.75rem !important;
