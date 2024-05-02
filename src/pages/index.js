@@ -15,17 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           Backlot
         </Heading>
-        <p className="hero__subtitle">
-          <b>roleplay community in GTAV</b>
-        </p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Join Game
-          </Link>
-        </div>
+        <p className="hero__subtitle">roleplay community in GTAV</p>
       </div>
     </header>
   );
