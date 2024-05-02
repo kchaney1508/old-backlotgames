@@ -88,6 +88,10 @@ const config = {
       ({
         hashed: true,
         language: "en",
+        indexPages: true,
+        blogDir: "updates",
+        searchBarShortcut: false,
+        blogRouteBasePath: "/updates",
       }),
     ],
   ],
