@@ -50,6 +50,10 @@ const config = {
             to: "/docs/intro",
             from: "/docs",
           },
+          {
+            to: "/team",
+            from: "/staff",
+          },
         ],
       },
     ],
@@ -135,6 +139,11 @@ const config = {
             to: "/faq",
             position: "right",
             className: "header-faq-link",
+          },
+          {
+            to: "/team",
+            position: "right",
+            className: "header-team-link",
           },
           {
             href: "https://ko-fi.com/backlotcity",
