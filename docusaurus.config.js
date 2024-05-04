@@ -43,7 +43,7 @@ const config = {
             from: "/support",
           },
           {
-            to: "https://github.com/kchaney1508/niko",
+            to: "https://www.youtube.com/watch?v=WJy6ESZsu48",
             from: "/niko",
           },
           {
