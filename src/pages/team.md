@@ -8,7 +8,7 @@ hide_table_of_contents: true
 </head>
 
 <div class="row rowteam rowmiddle">
-    <div class="cardgrouptitle">DEVELOPMENT</div>
+    <div class="cardgrouptitle">MAINTAINER</div>
     <div class="col col--6 margin-bottom--lg">
         <div class="card card--full-height cardcolor">
             <div class="card__header">

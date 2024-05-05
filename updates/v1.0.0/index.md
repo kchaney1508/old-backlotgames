@@ -4,7 +4,7 @@ title: v1.0.0
 date: March 20, 2024
 authors:
   name: KC1508
-  title: Development
+  title: (kchaney1508)
   image_url: https://avatars.githubusercontent.com/u/107610683
 ---
 

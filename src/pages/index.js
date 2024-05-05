@@ -2,7 +2,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
+// import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -16,6 +16,26 @@ function HomepageHeader() {
           Backlot
         </Heading>
         <p className="hero__subtitle">roleplay community in GTAV</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg homepageButton"
+            to="/docs/intro"
+          >
+            Docs Portal
+          </Link>
+          <Link
+            className="button button--secondary button--lg homepageButton"
+            to="/updates"
+          >
+            Game Updates
+          </Link>
+          <Link
+            className="button button--secondary button--lg homepageButton"
+            to="/rules"
+          >
+            Server Rules
+          </Link>
+        </div>
       </div>
     </header>
   );
@@ -24,11 +44,8 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description="Open world roleplay community in GTAV.">
+    <Layout noFooter description="Open world roleplay community in GTAV.">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }

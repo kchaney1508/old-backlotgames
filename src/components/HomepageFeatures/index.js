@@ -14,8 +14,8 @@ const FeatureList = [
     ),
   },
   {
-    title: "Focus on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    title: "Our Discord",
+    Svg: require("@site/static/img/discord-icon-svgrepo-com.svg").default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go

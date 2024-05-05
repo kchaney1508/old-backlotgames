@@ -8,7 +8,7 @@ toc_max_heading_level: 4
   <title>Backlot - Rules</title>
 </head>
 
-# Rules
+# Server Rules
 We utilizes rules, *a set of explicit regulations or principles governing conduct within a particular activity*, as means to regulate roleplay for the best possible player experience. When rules are updated, they will be noted in the [changelog](https://backlot.city/updates).
 
 ### **Prerequisites**
