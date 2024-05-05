@@ -47,7 +47,7 @@ const config = {
             from: "/niko",
           },
           {
-            to: "/docs/intro",
+            to: "/docs/portal",
             from: "/docs",
           },
           {
