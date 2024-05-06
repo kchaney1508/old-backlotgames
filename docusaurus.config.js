@@ -35,11 +35,11 @@ const config = {
             from: "/discord",
           },
           {
-            to: "https://ko-fi.com/backlotcity",
+            to: "https://ko-fi.com/kchaney1508",
             from: "/donate",
           },
           {
-            to: "https://ko-fi.com/backlotcity",
+            to: "https://ko-fi.com/kchaney1508",
             from: "/support",
           },
           {
@@ -146,7 +146,7 @@ const config = {
             className: "header-team-link",
           },
           {
-            href: "https://ko-fi.com/backlotcity",
+            href: "https://ko-fi.com/kchaney1508",
             position: "right",
             className: "header-kofi-link",
           },
