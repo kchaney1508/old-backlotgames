@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Portal Home
+# Portal
 
 <head>
   <title>Backlot - Docs</title>
