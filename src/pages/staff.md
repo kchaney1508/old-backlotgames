@@ -4,12 +4,12 @@ hide_table_of_contents: true
 ---
 
 <head>
-    <title>Backlot - Team</title>
+    <title>Backlot - Staff</title>
 </head>
 
 <div class="row rowteam rowmiddle">
     <div class="cardgrouptitle">MAINTAINER</div>
-    <div class="col col--6 margin-bottom--lg">
+    <div class="col col--10 margin-bottom--lg">
         <div class="card card--full-height cardcolor">
             <div class="card__header">
                 <div class="avatar avatar--vertical">
@@ -40,7 +40,7 @@ hide_table_of_contents: true
     </div>
 </div>
 <div class="row rowteam">
-    <div class="cardgrouptitle">HELPERS</div>
+    <div class="cardgrouptitle">SERVER STAFF</div>
     <div class="col col--6 margin-bottom--lg">
         <div class="card card--full-height cardcolor">
             <div class="card__header">
@@ -82,6 +82,73 @@ hide_table_of_contents: true
                         href="https://discordapp.com/users/268543533659586561" target="_blank"
                         rel="noopener noreferrer">Discord</a>
                 </div>
+            </div>
+        </div>
+    </div>
+        <div class="col col--12 margin-bottom--lg">
+        <div class="card cardcolor">
+            <div class="card__header">
+                <div class="avatar avatar--vertical">
+                    <div class="avatar__intro">
+                        <h3 class="row__avatar__name">Open Position</h3>
+                        <h3 class="row__avatar__title">Community Moderator</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                If you're skilled in communication, love building communities, and have some experience moderating online platforms, we want to hear from you! Help us maintain a positive environment where everyone feels welcome to join and play. Note this position is fill internally.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row rowteam rowmiddle">
+    <div class="cardgrouptitle">CONTRIBUTORS</div>
+    <div class="col col--6 margin-bottom--lg">
+        <div class="card cardcolor">
+            <div class="card__header">
+                <div class="avatar avatar--vertical">
+                    <div class="avatar__intro">
+                        <h3 class="row__avatar__name">Open Position</h3>
+                        <h3 class="row__avatar__title">Game Developer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                Proficiency in LUA, TypeScript, JavaScript, and UI development is a plus. Familiarity with FXServer and
+                game frameworks at an intermediate level will be highly valued as an contributor.
+            </div>
+        </div>
+    </div>
+    <div class="col col--6 margin-bottom--lg">
+        <div class="card cardcolor">
+            <div class="card__header">
+                <div class="avatar avatar--vertical">
+                    <div class="avatar__intro">
+                        <h3 class="row__avatar__name">Open Position</h3>
+                        <h3 class="row__avatar__title">Web Developer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                Our website is powered by Docusaurus. We're seeking individuals with a strong command of React, HTML,
+                CSS (styling), and UI design to enhance our online presence. [Source
+                code](https://github.com/kchaney1508/backlot.city) is public.
+            </div>
+        </div>
+    </div>
+    <div class="col col--12 margin-bottom--lg">
+        <div class="card cardcolor">
+            <div class="card__header">
+                <div class="avatar avatar--vertical">
+                    <div class="avatar__intro">
+                        <h3 class="row__avatar__name">Open Position</h3>
+                        <h3 class="row__avatar__title">Network Developer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                Proficiency in network protocols, security, and backend required. Experience with TCP/IP, UDP,
+                DNS, DHCP, and troubleshooting preferred. Knowledge of database management (SQL) is a plus.
             </div>
         </div>
     </div>

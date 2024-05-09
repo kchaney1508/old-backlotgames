@@ -51,8 +51,8 @@ const config = {
             from: "/docs",
           },
           {
-            to: "/team",
-            from: "/staff",
+            to: "/staff",
+            from: "/team",
           },
         ],
       },
@@ -141,7 +141,7 @@ const config = {
             className: "header-faq-link",
           },
           {
-            to: "/team",
+            to: "/staff",
             position: "right",
             className: "header-team-link",
           },
