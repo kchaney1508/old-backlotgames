@@ -79,7 +79,7 @@ body {
   margin: 0px !important;
 }
 
-.hero__title img {
+.spike {
   /* remove text highlight */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -95,7 +95,7 @@ body {
   transition: transform 0.2s;
 }
 
-.hero__title img:hover {
+.spike:hover {
   transform: scale(1.02);
 }
 
@@ -107,19 +107,26 @@ body {
   margin: 0rem 0.25rem 4.5rem 0.25rem;
 }
 
+@media only screen and (min-width: 600px) {
+  .spikemobile {
+    display: none !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .homepageButton {
     display: none !important;
   }
 
-  .hero__title img {
-    height: 6rem !important;
-    margin-bottom: 3vh;
+  .spikerelay {
+    /* height: 6rem !important;
+    margin-bottom: 3vh; */
+    display: none !important;
   }
 }
 
 @media only screen and (max-width: 385px) {
-  .hero__title img {
+  .spikerelay {
     display: none;
   }
 }
