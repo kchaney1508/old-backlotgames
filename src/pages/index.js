@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <img src="https://bctemp.s3.us-east-2.amazonaws.com/logo.png"></img>
+          <img src="/img/index-spike.png"></img>
         </Heading>
         {/* <p className="hero__subtitle">roleplay community in GTAV</p> */}
         <div className={styles.buttons}>
