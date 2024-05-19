@@ -8,7 +8,7 @@ hide_table_of_contents: true
 </head>
 
 <div class="row rowteam rowmiddle">
-    <div class="cardgrouptitle">MAINTAINER</div>
+    <div class="cardgrouptitle">DEVELOPER</div>
     <div class="col col--10 margin-bottom--lg">
         <div class="card card--full-height cardcolor">
             <div class="card__header">
@@ -103,41 +103,30 @@ hide_table_of_contents: true
 </div>
 <div class="row rowteam rowmiddle">
     <div class="cardgrouptitle">CONTRIBUTORS</div>
-    <div class="col col--6 margin-bottom--lg">
+    <div class="col col--8 margin-bottom--lg">
         <div class="card cardcolor">
             <div class="card__header">
                 <div class="avatar avatar--vertical">
+                    <img class="avatar__photo avatar__photo--xl"
+                        src="https://cdn.discordapp.com/avatars/760626163147341844/081d09487311b9a24179a6bd1c868eb3.webp?size=240" />
                     <div class="avatar__intro">
-                        <h3 class="row__avatar__name">Open Position</h3>
-                        <h3 class="row__avatar__title">Game Developer</h3>
+                        <h3 class="row__avatar__name">R.M</h3>
+                        <h3 class="row__avatar__title">(.lmno)</h3>
                     </div>
                 </div>
             </div>
-            <div class="card__body">
-                Proficiency in LUA, TypeScript, JavaScript, and UI development is a plus. Familiarity with FXServer and
-                game frameworks at an intermediate level will be highly valued as an contributor.
-            </div>
-        </div>
-    </div>
-    <div class="col col--6 margin-bottom--lg">
-        <div class="card cardcolor">
-            <div class="card__header">
-                <div class="avatar avatar--vertical">
-                    <div class="avatar__intro">
-                        <h3 class="row__avatar__name">Open Position</h3>
-                        <h3 class="row__avatar__title">Web Developer</h3>
-                    </div>
+            <!-- <div class="card__body"></div> -->
+            <div class="card__footer">
+                <div class="button-group button-group--block">
+                    <a class="button button--secondary buttondiscord"
+                        href="https://discordapp.com/users/760626163147341844" target="_blank"
+                        rel="noopener noreferrer">Discord</a>
                 </div>
             </div>
-            <div class="card__body">
-                Our website is powered by Docusaurus. We're seeking individuals with a strong command of React, HTML,
-                CSS (styling), and UI design to enhance our online presence. [Source
-                code](https://github.com/kchaney1508/backlot.city) is public.
-            </div>
         </div>
     </div>
-    <div class="col col--12 margin-bottom--lg">
-        <div class="card cardcolor">
+    <div class="col col--5 margin-bottom--lg">
+        <div class="card cardcolor minheight">
             <div class="card__header">
                 <div class="avatar avatar--vertical">
                     <div class="avatar__intro">
@@ -149,6 +138,39 @@ hide_table_of_contents: true
             <div class="card__body">
                 Proficiency in network protocols, security, and backend required. Experience with TCP/IP, UDP,
                 DNS, DHCP, and troubleshooting preferred. Knowledge of database management (SQL) is a plus.
+            </div>
+        </div>
+    </div>
+    <div class="col col--5 margin-bottom--lg">
+        <div class="card cardcolor">
+            <div class="card__header">
+                <div class="avatar avatar--vertical">
+                    <div class="avatar__intro">
+                        <h3 class="row__avatar__name">Open Position</h3>
+                        <h3 class="row__avatar__title">Game Contributor</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                Proficiency in LUA, TypeScript, JavaScript, and UI development is a plus. Familiarity with FXServer and
+                game frameworks at an intermediate level will be highly valued as an contributor.
+            </div>
+        </div>
+    </div>
+    <div class="col col--12 margin-bottom--lg">
+        <div class="card cardcolor">
+            <div class="card__header">
+                <div class="avatar avatar--vertical">
+                    <div class="avatar__intro">
+                        <h3 class="row__avatar__name">Open Position</h3>
+                        <h3 class="row__avatar__title">Web Contributor</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                Our website is powered by Docusaurus. We're seeking individuals with a strong command of React, HTML,
+                CSS (styling), and UI design to enhance our online presence. [Source
+                code](https://github.com/kchaney1508/backlot.city) is public.
             </div>
         </div>
     </div>
