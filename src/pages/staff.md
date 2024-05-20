@@ -108,19 +108,21 @@ hide_table_of_contents: true
             <div class="card__header">
                 <div class="avatar avatar--vertical">
                     <img class="avatar__photo avatar__photo--xl"
-                        src="https://your-mom-is-so-fat-we-couldnt-fit-her-in-this-doma.in/dsl1wi10.png" height="250"/>
+                        src="https://your-mom-is-so-fat-we-couldnt-fit-her-in-this-doma.in/s0uz3j62.png" height="250"/>
                     <div class="avatar__intro">
                         <h3 class="row__avatar__name">Mike</h3>
                         <h3 class="row__avatar__title">(.lmno)</h3>
                     </div>
                 </div>
             </div>
-            <!-- <div class="card__body"></div> -->
+          <div class="card__body">
+            <p>22 yo Technology Enthusiast w/ experience in Administration, Prototyping, Development, and Network Security. I hunt and crush bugs.</p>
+            </div>
             <div class="card__footer">
                 <div class="button-group button-group--block">
                     <a class="button button--secondary buttondiscord"
-                        href="https://discordapp.com/users/760626163147341844" target="_blank"
-                        rel="noopener noreferrer">Discord</a>
+                        href="mailto:mike@esrp.online?subject=website contact"
+                        rel="noopener noreferrer">E-mail me</a>
                 </div>
             </div>
         </div>
