@@ -108,9 +108,9 @@ hide_table_of_contents: true
             <div class="card__header">
                 <div class="avatar avatar--vertical">
                     <img class="avatar__photo avatar__photo--xl"
-                        src="https://cdn.discordapp.com/avatars/760626163147341844/081d09487311b9a24179a6bd1c868eb3.webp?size=240" />
+                        src="https://your-mom-is-so-fat-we-couldnt-fit-her-in-this-doma.in/dsl1wi10.png" height="250"/>
                     <div class="avatar__intro">
-                        <h3 class="row__avatar__name">R.M</h3>
+                        <h3 class="row__avatar__name">Mike</h3>
                         <h3 class="row__avatar__title">(.lmno)</h3>
                     </div>
                 </div>
