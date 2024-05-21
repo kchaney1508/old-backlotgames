@@ -104,7 +104,11 @@ body {
 }
 
 .homepageButton {
+  color: white !important;
   margin: 0rem 0.25rem 4.5rem 0.25rem;
+
+  padding-left: 1.35rem !important;
+  padding-right: 1.35rem !important;
 }
 
 @media only screen and (min-width: 600px) {
@@ -479,4 +483,49 @@ time:before {
 /* overwrites */
 .padding-top--md {
   padding-top: 1.75rem !important;
+}
+
+.glass {
+  backdrop-filter: blur(3px) saturate(180%);
+  -webkit-backdrop-filter: blur(4px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.193);
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(209, 213, 219, 0.3);
+  position: relative;
+  overflow: hidden;
+  animation-fill-mode: forwards;
+  transition: transform 0.3s ease;
+  color: #ffffff;
+}
+
+.glass::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(45deg);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.glass:hover {
+  transform: scale(1.04);
+}
+
+.glass:hover::before {
+  opacity: 0.75;
+  filter: blur(5px);
+  animation: sweep 1s forwards ease-out;
+}
+
+@keyframes sweep {
+  0% {
+    transform: translateX(-150%) translateY(-150%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(150%) translateY(150%) rotate(45deg);
+  }
 }
