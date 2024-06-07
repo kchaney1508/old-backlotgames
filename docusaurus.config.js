@@ -172,7 +172,7 @@ const config = {
           alt: "Piglins Large Banner",
           src: "img/backlot-footer-banner.png",
         },
-        copyright: `Design created by <a href="https://github.com/kchaney1508" target="_blank" rel="noopener noreferrer"><b>KC1508</b></a> as <a href="https://github.com/kchaney1508/backlot.city" target="_blank" rel="noopener noreferrer"><b>Open Source</b></a>.<br>We're not affiliated with or endorsed by Rockstar Games.`,
+        copyright: `Not affiliated with Rockstar Games.`,
       },
       prism: {
         theme: prismThemes.github,

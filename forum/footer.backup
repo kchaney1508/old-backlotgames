@@ -1,0 +1,38 @@
+<footer class="footer">
+    <div class="someclass">
+        <img src="https://forum.backlot.city/uploads/default/original/1X/00048d988c3b86e1d80ce21714349f9d8d778f29.png"
+            alt="Large Banner" class="footer__logo">
+    </div>
+    <div class="footer__copyright">
+        Not affiliated with Rockstar Games.
+    </div>
+</footer>
+
+<style>
+    .footer {
+        padding: 0px;
+        color: white;
+        margin: 0 auto;
+        min-width: 100%;
+        text-align: center;
+        background-color: #0a0a0a;
+        padding: 1vh 0vh 1vh 0vh !important;
+    }
+
+    .footer__logo {
+        max-height: 5.5vh;
+        max-width: none !important;
+        margin-top: 0 !important;
+        transition: transform 0.2s;
+    }
+
+    .footer__logo:hover {
+        transform: scale(1.02);
+    }
+
+    .footer__copyright {
+        font-size: 1.35vh;
+        font-weight: 400 !important;
+        font-family: "Montserrat", sans-serif;
+    }
+</style>

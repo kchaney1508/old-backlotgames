@@ -1,0 +1,92 @@
+// Import: fonts
+@font-face {
+    font-family: "SFHollywoodHills";
+    src: url($SFHollywoodHills);
+}
+
+// Remove: bootstrap header
+.bootstrap-mode {
+    display: none !important;
+}
+
+// Remove: post highlight
+.highlighted {
+    animation: none !important;
+}
+
+// Edit: about page
+.admins {
+    display: none !important;
+}
+
+.moderators {
+    display: none !important;
+}
+
+// Edit: avatar group flair
+.avatar-flair {
+    background-size: 30px 30px !important;
+}
+
+// Edit: flat button
+.btn-flat {
+    border-radius: 0.25rem !important;
+}
+
+// Edit: avatar
+img.avatar {
+    border-radius: 50% !important;
+}
+
+.btn-flat>img.avatar {
+    border-radius: 20% !important;
+}
+
+// Edit: header
+.d-header {
+    box-shadow: none !important;
+}
+
+// Edit: navbar logo
+#site-logo {
+    /* remove text highlight */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    transition: transform 0.2s;
+}
+
+#site-logo:hover {
+    transform: scale(1.02);
+}
+
+// Edit: global notice
+.alert-global-notice {
+    font-weight: 500 !important;
+    font-size: 1.35vh !important;
+    text-align: center !important;
+    border-radius: 0.45rem !important;
+    background-color: #171717 !important;
+}
+
+// Remove: more button
+.more-topics {
+    display: none !important;
+}
+
+// Remove: internal mod/admin icon
+span.staff .svg-icon-title {
+    display: none;
+}
+
+.user-profile-names__primary .d-icon {
+    display: none;
+}
+
+.user-card .first-row .names .d-icon, .group-card .first-row .names .d-icon {
+    display: none;
+}
