@@ -125,30 +125,23 @@ const config = {
       },
       image: "img/social-card.png",
       navbar: {
-        title: "Backlot",
+        logo: {
+          alt: 'Site Logo',
+          src: 'img/navbar.png',
+        },
         items: [
+          {
+            href: "https://forum.backlot.city/",
+            position: "left",
+            label: "Forum/Home",
+            target: '_self',
+          },
+          { to: "/rules", label: "Rules", position: "left" },
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Docs Portal",
-          },
-          { to: "/updates", label: "Updates", position: "left" },
-          { to: "/rules", label: "Rules", position: "left" },
-          {
-            to: "/faq",
-            position: "right",
-            className: "header-faq-link",
-          },
-          {
-            to: "/staff",
-            position: "right",
-            className: "header-team-link",
-          },
-          {
-            href: "https://ko-fi.com/kchaney1508",
-            position: "right",
-            className: "header-kofi-link",
+            label: "Docs",
           },
           {
             href: "https://www.discord.gg/KGdp7X3f63",

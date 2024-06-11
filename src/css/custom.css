@@ -26,19 +26,19 @@
   --ifm-color-primary-light: #24d36d;
   --ifm-color-primary-lighter: #29da72;
   --ifm-color-primary-lightest: #45df85;
-  --ifm-background-color: #1c1c1e;
+  --ifm-background-color: #202020;
 }
 
 html[data-theme="dark"] {
-  --ifm-background-color: #1c1c1e;
-  --ifm-background-surface-color: #272628;
-  --ifm-button-background-color: #1c1c1e;
-  --ifm-footer-background-color: #454446;
+  --ifm-background-color: #202020;
+  --ifm-background-surface-color: #202020;
+  --ifm-button-background-color: #202020;
+  --ifm-footer-background-color: #202020;
 }
 
 /* fix: 'white blurp' */
 html {
-  background-color: #1c1c1e !important;
+  background-color: #202020 !important;
 }
 
 /* page fade load anim */
@@ -60,11 +60,11 @@ body {
 
 /* colors: homepage */
 .main-wrapper main {
-  background-color: #1c1c1e;
+  background-color: #202020;
 }
 
 .hero--primary {
-  background-color: #1c1c1e;
+  background-color: #202020;
   background-image: url("../../static/img/index-background.png");
   width: 100vw;
   background-repeat: no-repeat;
@@ -137,27 +137,49 @@ body {
 
 /* navbar */
 .navbar {
-  /* backdrop-filter: blur(3px) saturate(180%); */
-  /* -webkit-backdrop-filter: blur(4px) saturate(180%); */
-  /* background-color: rgba(255, 255, 255, 0.193); */
-  /* border-radius: 1rem; */
-  /* border: 0.1rem solid rgba(209, 213, 219, 0.3); */
-  /* margin-bottom: 10vh; */
-
-  /* position: flex; */
-  /* overflow: hidden; */
-  /* inset: 0; */
-  /* margin: 0 auto; */
-  /* margin-top: 0.5vh; */
-  /* margin-bottom: 1vh; */
-  /* max-width: 60rem; */
-  padding-left: 1.5vw;
-  padding-right: 1.5vw;
+  min-height: 4em;
+  max-height: 4em;
+  box-shadow: none !important;
+  margin: 0px !important;
+  width: 100% !important;
+  /* margin: 0vw 28.15vw 0vw 28.15vw; */
+  margin: 0vw 30vw 0vw 30vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-/* .navbar__inner {
-  background-color: none !important;
-} */
+.navbar__inner {
+  overflow: hidden;
+  max-width: 1090px;
+
+  /* remove text highlight */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar__logo {
+  /* remove text highlight */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  min-height: 2.667em;
+  margin-right: 5px !important;
+
+  transition: transform 0.2s;
+}
+
+.navbar__logo:hover {
+  transform: scale(1.02);
+}
 
 .navbar__title {
   color: white;
@@ -174,6 +196,7 @@ body {
 .navbar__item {
   color: white;
   margin-top: 0.2vh;
+  font-size: 1.1rem;
   font-weight: bold !important;
   font-family: "Josefin Sans", sans-serif;
   transition: opacity 0.2s ease-in-out;
@@ -295,11 +318,19 @@ body {
 
 /* navbar search */
 :root {
-  --search-local-modal-background: #444445;
-  --search-local-highlight-color: #444445;
+  --search-local-modal-background: #202020;
+  --search-local-highlight-color: #3a3a3c;
   --ifm-navbar-item-padding-horizontal: 0.3vw !important;
-  --search-local-modal-shadow: inset 1px 0px 0 0 #1c1c1e,
-    1px 1px 1px 1px #1c1c1e;
+  --search-local-modal-shadow: inset 1px 0px 0 0 #202020,
+    1px 1px 1px 1px #202020;
+}
+
+.navbar__link {
+  padding: 0.35em 0.6em;
+}
+
+.navbar__link svg {
+  display: none !important;
 }
 
 .navbar__search {
@@ -307,14 +338,22 @@ body {
 }
 
 .navbar__search-input {
-  background-color: #444445;
+  background-color: #3a3a3c;
   outline: none !important;
 }
 
 /* footer */
 .footer {
-  background-color: #1c1c1e;
+  background-color: #202020;
   padding: 1vh 0vh 1vh 0vh !important;
+
+  /* remove text highlight */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .footer__logo {
@@ -351,11 +390,11 @@ body {
 /* updates */
 .col[class*="col--7"] {
   border-radius: 1vh;
-  background-color: #171717;
+  background-color: #3a3a3c;
 }
 
 .prism-code {
-  background-color: #3a3a3c !important;
+  background-color: #4c4c4c !important;
 }
 
 .margin-bottom--xl {
