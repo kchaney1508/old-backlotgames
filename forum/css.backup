@@ -1,4 +1,6 @@
 // Import: fonts
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @font-face {
     font-family: "SFHollywoodHills";
     src: url($SFHollywoodHills);
@@ -23,6 +25,11 @@
     display: none !important;
 }
 
+// Remove: new post welcome message
+.new-user {
+    display: none !important;
+}
+
 // Edit: avatar group flair
 .avatar-flair {
     background-size: 30px 30px !important;
@@ -31,6 +38,10 @@
 // Edit: flat button
 .btn-flat {
     border-radius: 0.25rem !important;
+}
+
+.btn-default {
+    border-radius: 0.35rem !important;
 }
 
 // Edit: avatar
@@ -45,6 +56,11 @@ img.avatar {
 // Edit: header
 .d-header {
     box-shadow: none !important;
+}
+
+// Edit: account buttons
+.sign-up-button, .login-button {
+    border-radius: 0.5rem;
 }
 
 // Edit: navbar logo
@@ -62,6 +78,30 @@ img.avatar {
 
 #site-logo:hover {
     transform: scale(1.02);
+}
+
+// Edit: navbar links
+.headerLink {
+  color: white;
+  margin-top: 0.2vh;
+  font-size: 1rem;
+  font-weight: bold !important;
+  font-family: "Josefin Sans", sans-serif;
+  transition: opacity 0.2s ease-in-out;
+  
+  /* remove text highlight */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headerLink:hover {
+  opacity: 0.6;
+  color: white;
+  transition: opacity 0.2s ease-in-out;
 }
 
 // Edit: global notice
@@ -89,4 +129,19 @@ span.staff .svg-icon-title {
 
 .user-card .first-row .names .d-icon, .group-card .first-row .names .d-icon {
     display: none;
+}
+
+// Edit: Category headers
+.category-list .category-list-banner {
+    border-radius: 0.5rem 1vh 0vh 0vh;
+    background-image: url($forum-banner);
+    background-size: cover;
+    &.category-6::after {
+        font-weight: bold !important;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    &.category-9::after {
+        font-weight: bold !important;
+        font-family: "Josefin Sans", sans-serif;
+    }
 }

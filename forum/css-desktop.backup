@@ -1,0 +1,24 @@
+// Edit: User post titles
+.user-title {
+    color: #c1c1c1 !important;
+}
+
+.user-group {
+    color: inherit !important;
+}
+
+.user-title {
+    color: #c1c1c1 !important;
+    border-radius: 0.25rem !important;
+    background-color: #323233 !important;
+    padding: 0.05rem 0.2rem 0.05rem 0.2rem !important;
+}
+
+// Edit: User profile titles
+.user-profile-names__title {
+    color: #c1c1c1 !important;
+    max-width: max-content !important;
+    border-radius: 0.25rem !important;
+    background-color: #323233 !important;
+    padding: 0.05rem 0.2rem 0.05rem 0.2rem !important;
+}
