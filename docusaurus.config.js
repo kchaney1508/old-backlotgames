@@ -50,10 +50,6 @@ const config = {
             to: "/docs/portal",
             from: "/docs",
           },
-          {
-            to: "/staff",
-            from: "/team",
-          },
         ],
       },
     ],
