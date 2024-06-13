@@ -64,13 +64,14 @@ body {
 }
 
 .hero--primary {
-  background-color: #202020;
-  background-image: url("../../static/img/index-background.png");
+  background-color: #e5e5f7;
+  background: linear-gradient(135deg, #2c2c2c55 25%, transparent 25%) -10px 0/
+      20px 20px,
+    linear-gradient(225deg, #2c2c2c 25%, transparent 25%) -10px 0/ 20px 20px,
+    linear-gradient(315deg, #2c2c2c55 25%, transparent 25%) 0px 0/ 20px 20px;
   width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   overflow: hidden !important;
-  background-position: center;
   position: relative;
 }
 
