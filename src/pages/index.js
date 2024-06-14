@@ -19,23 +19,10 @@ function HomepageHeader() {
         {/* <p className="hero__subtitle">roleplay community in GTAV</p> */}
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg homepageButton glass"
-            to="/docs/portal"
+            className="button button--secondary button--lg homepageButton buttoncss"
+            to="/picklerick"
           >
-            {" "}
-            Docs Portal
-          </Link>
-          <Link
-            className="button button--secondary button--lg homepageButton glass"
-            to="/updates"
-          >
-            Game Updates
-          </Link>
-          <Link
-            className="button button--secondary button--lg homepageButton glass"
-            to="/rules"
-          >
-            Server Rules
+            (clicking this button does something superduper cool)
           </Link>
         </div>
       </div>
