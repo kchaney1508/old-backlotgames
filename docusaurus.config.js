@@ -132,6 +132,7 @@ const config = {
             label: "Forum/Home",
             target: '_self',
           },
+          { to: "/updates", label: "Updates", position: "left" },
           { to: "/rules", label: "Rules", position: "left" },
           {
             type: "docSidebar",
