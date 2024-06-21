@@ -1,7 +1,7 @@
 ---
 slug: v1.1.4
 title: v1.1.4
-date: May 10, 2024
+date: June 21, 2024
 authors:
   name: KC1508
   title: (kchaney1508)
@@ -38,6 +38,68 @@ c08e71d: dlc_pmap edits // pause menu game version && ID
 d7f6d01: banished .bat files (gitignore)
 cac181c: bump loading screen to new font/theme
 49f8573: feat: social activitypubFeed
+0909fd6: refactor/feat: dlc_veh_lsfd/dlc_veh_lssd mpl vehs
+7f64fce: feat: dlc_weapons carbinerifle
+dd2b095: refactor: holsters (TOS)
+539aa09: refactor: server config file/listing
+957536e: feat: remove X vehicles
+912e2d3: refactor: loadingscreen/new theme
+ec93432: fix: del unused git source file
+d33a0b4: feat: revive anim
+e7c566f: fix: anim/notfi removal
+6a60f99: fix: unknown?
+e7645ea: pre-commit/save: ambulance UI edits // unfinished
+fa2ff7d: refactor: death screens/blur/fullscreen/etc
+91d4366: feat: dlc_pillbox
+6917fdf: refactor: ambulance death stuff/still bugged
+09a5e8f: refactor: lang/fixes some issues ~ unfinished
+bd142ea: fix(core): message UI ~ length or {value}
+d0b52eb: format: ambulancejob
+0aea7e1: fix: double revive animation on last stand
+a16a2dd: fix: removed debug prints
+9b0325a: fix: remove hover user select from inventory/fo...
+547c456: feat(dlc_peds): new clothing attire/jacket/beards
+1da2840: refactor: VOIP disable on death/timer 180s
+160f70b: fix: lang, anim play and formatting for inventory
+adc5f58: fix: mechanic repair time/lang
+04fb985: fix: tire repair time
+66dd179: refactor: shop formatting/hardware slots
+2096d59: refactor: ignorejson/shop formatting
+c69bedf: random format
+18c7394: del: hotwire/must use lockpick
+08a0fdd: feat: dlc_bestbuds
+dcfbb50: feat: unfinished added drugs back/weed effect
+6a78a4c: del: radioscanner
+a0dfe1d: bump: internally moved loadingscreen
+0bbbbfa: bump: internally fixing some shit/cleanup
+18b8c8c: bump: formatting @ vehiclekeys
+483199b: bump: LICENSE
+b79698b: docs: README update
+b371150: bump: remove locale finish
+f63215c: bump: cleanup server.cfg
+18bc7ae: bump: listing/cfg
+bb2a7d3: cleanup replexx history dupe
+66745db: bump: type gametype
+2206c18: feat: dlc_weedlocations
+20cf07f: bump: increased MP0_STAMINA
+8743075: bum: core events formatting/remove pvp cmd
+5cde59d: fix: remove 'g' keybind for engine
+5ed8a0b: bump target resource to priority queue
+030fc01: del: gitignore file
+37bae3f: refactor: internal admin command cleanup
+7d6c837: refactor: file formatting previous commit
+2bfc68e: fix: remove update handler print ox
+512a353: fix: text server sided DB connection
+23c741f: refactor: loading screen music
+417e3a2: bump: loadingscreen match
+0422747: bump: char button style
+b30d4e9: fix: padding issue
+553441b: blips @ shops
+ec12b5e: rebase: basic drug functionality/format
+c45aed9: format core config
+33ef0a6: format Discord status
+d9ed4aa: fix: client console outputting native error
+62adfc3: fix: spelling error
 ```
 
 ### Backlot.City - Website
@@ -96,6 +158,42 @@ e317164: bump: niko redir
 bdc92e8: bump(core): 3.3.1->3.3.2
 530f039: refactor(base): remove/template docs
 5ea05ac: fix: /intro - /portal
+9605a4b: feat(docs): Get Started & Troubleshooting | Bas...
+36b99b7: refactor: staff page // still not reactive
+0fef421: del: readme redirects
+d3cd840: Rework Homepage
+04a1729: Rework CSS
+0273239: del: t.html/unused logos
+145bbc1: refactor: homepage image layout
+e4f6e3f: feat: homepage images // optimized @ local
+2011f15: fix: green blurp when slow loading homepage img
+8535793: fix: serve spike locally
+78e91a6: fix: reactive homepage img element - icon
+cb60c51: feat: new contributor
+0b6054f: Update staff.md
+a8bef74: Merge pull request #6 from RossMdevs/patch-1
+4adf139: Glass - CSS
+430f568: Glass - JS
+f7ced61: Sneaky lil' me update :p
+9e70c6a: dump: glass/resize padding
+62b99cb: refactor: staff page
+c22f324: feat: fxserver-banner (serving locally vs forums)
+0566dcd: Merge branch 'prod' of https://github.com/kchan...
+85eb6fd: feat: legalnotice.pdf
+8c1cba0: feat/unfinished: trying new navbar stuff/needs ...
+41eec2c: feat: internal forum backup/footer merge
+ac4c1d9: refactor: navbar/color changes for forum match
+85eb6fd: feat: legalnotice.pdf
+8c1cba0: feat/unfinished: trying new navbar stuff/needs ...
+ac4c1d9: refactor: navbar/color changes for forum match
+6bc7edd: Merge pull request #9 from kchaney1508/pr-8
+b6f3d1a: refactor/feat: merge forum changes for backup
+1f13baf: Merge branch 'prod' of https://github.com/kchan...
+e749611: bump: docusaurus v3.4.0
+61def4c: refactor: stash unused pages/delete CSS
+a441daa: refactor: homepage img remove/new pattern
+55dd9c1: refactor: added updates back to navbar
+890d691: refactor: changes homebutton to something cooler
 ```
 
 ### Niko - Discord Bot
@@ -128,6 +226,9 @@ dd4ba28: bump: SEP @ messageCreate
 c6b1f14: feat(logger): messageDelete/messageUpdate
 c12502d: feat(logger): memberGuild add/Remove 
 321b376: bump: ver 1.0.5
+ffe57ae: feat: slashcommand base
+615eaaf: * Ver to internal ver sys; BUMP v1.1.4
+1242d46: feat: welcome msg (developer only)
 ```
 
 Other Changes:
