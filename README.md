@@ -1,5 +1,5 @@
 # backlot-city
-Source code for Backlot City's docs. 
+Source code for Backlot's landing page and docs ~ forums separate. 
 
 ## Docusaurus
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
