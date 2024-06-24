@@ -20,9 +20,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg homepageButton buttoncss"
-            to="/picklerick"
+            to="/docs/getstarted/fivem"
           >
-            (clicking this button does something superduper cool)
+            Learn About Connecting and Creating a Character
           </Link>
         </div>
       </div>
