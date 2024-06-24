@@ -151,6 +151,11 @@ const config = {
             className: "header-server-link",
           },
           {
+            to: "/legal",
+            position: "right",
+            className: "header-legal-link",
+          },
+          {
             type: "search",
             position: "right",
           },
