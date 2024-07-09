@@ -145,3 +145,7 @@ span.staff .svg-icon-title {
         font-family: "Josefin Sans", sans-serif;
     }
 }
+
+.category-icon {
+    padding-right: 0.5rem;
+}
