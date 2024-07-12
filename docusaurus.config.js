@@ -36,10 +36,6 @@ const config = {
           },
           {
             to: "https://ko-fi.com/kchaney1508",
-            from: "/donate",
-          },
-          {
-            to: "https://ko-fi.com/kchaney1508",
             from: "/support",
           },
           {
