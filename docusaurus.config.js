@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Backlot",
-  tagline: "Open Source Tagline",
+  tagline: "Roleplay Community in GTAV",
   favicon: "img/favicon.ico",
 
   // Production URL
