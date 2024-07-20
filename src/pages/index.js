@@ -33,7 +33,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout noFooter description="Open world roleplay community in GTAV.">
+    <Layout noFooter description="Roleplay-Focused Gaming Community in GTAV">
       <HomepageHeader />
     </Layout>
   );

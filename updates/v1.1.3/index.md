@@ -63,4 +63,4 @@ a44d055: loading 'circle' 1080p/4k
 <!--truncate-->
 
 ### Issues? 
-Report any game bugs or problems on our [Discord Server](https://backlot.city/discord).
+Report any game bugs or problems on our [Discord Server](https://backlotgames.com/discord).

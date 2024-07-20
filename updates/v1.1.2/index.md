@@ -45,4 +45,4 @@ b899426/04650b1/1758101: garage system edits (not finished with UI, withholding 
 <!--truncate-->
 
 ### Issues? 
-Report any game bugs or problems on our [Discord Server](https://backlot.city/discord).
+Report any game bugs or problems on our [Discord Server](https://backlotgames.com/discord).

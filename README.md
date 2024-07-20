@@ -1,5 +1,5 @@
-# backlot-city
-Source code for Backlot's landing page and docs ~ forums separate. 
+# backlotgames.com
+Source Code for the backlotgames.com website. 
 
 ## Docusaurus
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
@@ -8,10 +8,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 `npm install`/`npm start` -- see the [Installation Page](https://docusaurus.io/docs/installation) for more help. Pull requests welcomed.
 
 ### Deployment
-Locally, `npm run build` & `npm run serve`. Repo auto deploys using [GitHub Workflows](.github/workflows/deploy.yml) to [backlot.city](https://backlot.city/).
-
-#### Other Credits
-[easyops](https://github.com/easyops-cn) for [docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local).
+Locally, `npm run build` & `npm run serve`. Repo auto deploys using [GitHub Workflows](.github/workflows/deploy.yml) to [backlotgames.com](https://backlotgames.com/).
 
 ### [License](./LICENSE)
     MIT License

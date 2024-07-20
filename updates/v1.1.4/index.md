@@ -102,7 +102,7 @@ d9ed4aa: fix: client console outputting native error
 62adfc3: fix: spelling error
 ```
 
-### Backlot.City - Website
+### backlotgames.com - Website
 ```
 466197f: Create CNAME
 02754cf: feat: codebase
@@ -232,11 +232,11 @@ ffe57ae: feat: slashcommand base
 ```
 
 Other Changes:
-- New repo: `niko`, `backlot.city`.
+- New repo: `niko`, `backlotgames.com`.
 - Repository bumped from `backlot` to `FXBacklot` (*Source code for Backlot City's FXServer*), which will hopefully give a better indication to commits.
 - Internal txAdmin panel removed from firewall allowlist and moved to Cloudflare's Tunnel system for security. This will prevent attacks such as data breaches, DDoS and much more. Accessible at an internal link which is not shared with non-moderators.
 
 <!--truncate-->
 
 ### Issues? 
-Report any game bugs or problems on our [Discord Server](https://backlot.city/discord).
+Report any game bugs or problems on our [Discord Server](https://backlotgames.com/discord).

@@ -17,4 +17,4 @@ Codebase release complete, return and see v1.1 or later (no data available).
 <!--truncate-->
 
 ### Issues? 
-Report any game bugs or problems on our [Discord Server](https://backlot.city/discord).
+Report any game bugs or problems on our [Discord Server](https://backlotgames.com/discord).

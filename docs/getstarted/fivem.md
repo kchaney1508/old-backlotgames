@@ -12,7 +12,7 @@ Knowledgebase on joining and connecting to our server.
 
 ## Prerequisites
 
-1. You must be on our [Discord Guild](https://backlot.city/discord).
+1. You must be on our [Discord Guild](https://backlotgames.com/discord).
 2. Compliant with our [Rules Prerequisites](/rules#prerequisites) list.
 3. Must have a working, valid and legal copy of [Grand Theft Auto: V](https://www.rockstargames.com/gta-v).
 4. Your Discord and Cfx.re accounts must be linked for authentication - [learn more](/docs/troubleshooting/discord).
@@ -25,7 +25,7 @@ Knowledgebase on joining and connecting to our server.
 
 :::warning[Warning (Copycat Servers)]
 
-The Official Backlot FiveM Server will have its **Owner** listed as [KC1508](https://forum.cfx.re/u/kc1508/). If you cannot validate ownership or find the server you are joining to be suspicious, avoid connecting and contact our Server Staff on the [Discord](https://backlot.city/discord) to report it.
+The Official Backlot FiveM Server will have its **Owner** listed as [KC1508](https://forum.cfx.re/u/kc1508/). If you cannot validate ownership or find the server you are joining to be suspicious, avoid connecting and contact our Server Staff on the [Discord](https://backlotgames.com/discord) to report it.
 
 :::
 

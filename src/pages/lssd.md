@@ -54,4 +54,4 @@ ALT  ===  hold siren active
 [Click Here - Updated 4/29/24](https://docs.google.com/spreadsheets/d/1p5Int-CKiCWmLxKeFtH3F-X3NJHN6Cayxq-5qPPEqLA/edit#gid=0)
 
 ##### Non-Published Info
-Please recall that [Metagaming](https://backlot.city/rules#1) is against our server rules. Using this information to your advantage in the server is prohibited. This page was created for ease-of-access for LSSD Characters while playing on the server.
+Please recall that [Metagaming](https://backlotgames.com/rules#1) is against our server rules. Using this information to your advantage in the server is prohibited. This page was created for ease-of-access for LSSD Characters while playing on the server.

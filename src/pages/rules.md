@@ -9,7 +9,7 @@ toc_max_heading_level: 4
 </head>
 
 # Server Rules
-We utilizes rules, *a set of explicit regulations or principles governing conduct within a particular activity*, as means to regulate roleplay for the best possible player experience. When rules are updated, they will be noted in the [changelog](https://backlot.city/updates).
+We utilizes rules, *a set of explicit regulations or principles governing conduct within a particular activity*, as means to regulate roleplay for the best possible player experience. When rules are updated, they will be noted in the [changelog](https://backlotgames.com/updates).
 
 ### **Prerequisites**
 - Working microphone of decent audible quality.
@@ -77,4 +77,4 @@ Like Rule 14 & 15, this is applicable in most scenarios. Some examples:
 - 'Body Cam' or Twitch/YT recordings cannot be used unless your character was actually using a physical item to record (i.e., Sheriff bodycam on ped, phone, CCTV, etc).
 
 ##### Edit-Change The Rules
-Members can contribute towards these rules on the [Open Source Repository](https://github.com/kchaney1508/backlot.city) with pull requests.
+Members can contribute towards these rules on the [Open Source Repository](https://github.com/backlotgames/backlotgames.com) with pull requests.

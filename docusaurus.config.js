@@ -5,16 +5,16 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Backlot",
-  tagline: "Roleplay Community in GTAV",
+  tagline: "Roleplay-Focused Gaming Community in GTAV",
   favicon: "img/favicon.ico",
 
   // Production URL
-  url: "https://backlot.city",
+  url: "https://backlotgames.com",
   baseUrl: "/",
 
   // GitHub pages deployment config.
-  organizationName: "kchaney1508",
-  projectName: "backlot.city",
+  organizationName: "backlotgames",
+  projectName: "backlotgames.com",
   deploymentBranch: "prod",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -35,16 +35,16 @@ const config = {
             from: "/discord",
           },
           {
-            to: "https://ko-fi.com/kchaney1508",
-            from: "/support",
-          },
-          {
-            to: "https://www.youtube.com/watch?v=WJy6ESZsu48",
+            to: "https://github.com/backlotgames/niko",
             from: "/niko",
           },
           {
             to: "/docs/portal",
             from: "/docs",
+          },
+          {
+            to: "https://forum.backlotgames.com/",
+            from: "/forum",
           },
         ],
       },
@@ -60,7 +60,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           breadcrumbs: false,
           sidebarCollapsible: false,
-          editUrl: "https://github.com/kchaney1508/backlot.city/tree/prod/",
+          editUrl: "https://github.com/backlotgames/backlotgames.com/tree/prod/",
         },
         blog: {
           path: "updates",
@@ -68,7 +68,7 @@ const config = {
           blogTitle: "Updates",
           blogDescription: "Updates",
           showReadingTime: false,
-          editUrl: "https://github.com/kchaney1508/backlot.city/tree/prod/",
+          editUrl: "https://github.com/backlotgames/backlotgames.com/tree/prod/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -107,7 +107,7 @@ const config = {
         { name: "keywords", content: "five, backlot, roleplay" },
         {
           name: "og:description",
-          content: "Open world roleplay community in GTAV.",
+          content: "Roleplay-Focused Gaming Community in GTAV",
         },
       ],
       docs: {
@@ -123,7 +123,7 @@ const config = {
         },
         items: [
           {
-            href: "https://forum.backlot.city/",
+            href: "https://forum.backlotgames.com/",
             position: "left",
             label: "Forum/Home",
             target: '_self',
@@ -137,7 +137,7 @@ const config = {
             label: "Docs",
           },
           {
-            href: "https://www.discord.gg/KGdp7X3f63",
+            href: "https://discord.gg/KGdp7X3f63",
             position: "right",
             className: "header-discord-link",
           },
@@ -160,7 +160,7 @@ const config = {
       footer: {
         style: "dark",
         logo: {
-          alt: "Piglins Large Banner",
+          alt: "Backlot Footer Banner",
           src: "img/backlot-footer-banner.png",
         },
         copyright: `Not affiliated with Rockstar Games.`,
