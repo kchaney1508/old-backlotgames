@@ -16,6 +16,19 @@
     animation: none !important;
 }
 
+// Edit: navbar spacing
+#site-logo {
+    padding-right: 0.25em;
+}
+
+.custom-header-links {
+    margin-left: 0px !important;
+}
+
+.custom-header-links .headerLink a {
+    padding: .35em .4em !important;
+}
+
 // Edit: about page
 .admins {
     display: none !important;

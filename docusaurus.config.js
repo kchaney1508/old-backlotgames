@@ -125,7 +125,7 @@ const config = {
           {
             href: "https://forum.backlotgames.com/",
             position: "left",
-            label: "Forum/Home",
+            label: "Our Forum",
             target: '_self',
           },
           { to: "/updates", label: "Updates", position: "left" },

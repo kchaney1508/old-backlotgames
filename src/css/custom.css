@@ -145,6 +145,10 @@ body {
   justify-content: center;
 }
 
+.navbar__brand {
+  margin-right: 0px !important;
+
+}
 .navbar__inner {
   overflow: hidden;
   max-width: 1090px;
@@ -159,7 +163,9 @@ body {
 
 .navbar__logo {
   min-height: 2.667em;
-  margin-right: 5px !important;
+  padding-right: 0.25em;
+
+  margin-right: 0px !important;
 
   transition: transform 0.2s;
 
@@ -188,12 +194,15 @@ body {
 }
 
 .navbar__item {
-  color: white;
-  margin-top: 0.2vh;
-  font-size: 1.1rem;
+  color: #dddddd;
+  /* font-size: 1.1rem; */
   font-weight: bold !important;
   font-family: "Josefin Sans", sans-serif;
   transition: opacity 0.2s ease-in-out;
+
+  margin-top: .1em;
+  padding: .35em .4em !important;
+  font-size: 1.1487em !important;
 }
 
 .navbar__item:hover {
